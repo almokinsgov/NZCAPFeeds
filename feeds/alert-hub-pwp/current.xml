@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>New Zealand Emergency Mobile Alert feed</title>
+  <link rel="self" href="https://alerthub.civildefence.govt.nz/atom/pwp" />
+  <subtitle>A feed of current or recent Emergency Mobile Alerts issued in New Zealand.</subtitle>
+  <id>https://alerthub.civildefence.govt.nz/atom/pwp</id>
+  <updated>2026-06-21T23:54:49Z</updated>
+</feed>
