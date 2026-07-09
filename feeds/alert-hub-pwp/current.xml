@@ -4,5 +4,31 @@
   <link rel="self" href="https://alerthub.civildefence.govt.nz/atom/pwp" />
   <subtitle>A feed of current or recent Emergency Mobile Alerts issued in New Zealand.</subtitle>
   <id>https://alerthub.civildefence.govt.nz/atom/pwp</id>
-  <updated>2026-07-09T07:28:09Z</updated>
+  <updated>2026-07-09T09:43:07Z</updated>
+  <entry>
+    <title>Flood Evacuation Wairoa - Wairoa River</title>
+    <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjIuNi40ODkuNDg5" />
+    <author>
+      <name>New Zealand Emergency Mobile Alert</name>
+      <email>emergency.management@nema.govt.nz</email>
+    </author>
+    <id>https://alerthub.civildefence.govt.nz/messages/cap/2.49.0.0.554.2.6.489.489#0</id>
+    <updated>2026-07-09T09:42:28Z</updated>
+    <published>2026-07-09T09:42:27Z</published>
+    <content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"&gt;&lt;identifier&gt;2.49.0.0.554.2.6.489.489&lt;/identifier&gt;&lt;sender&gt;enquiries@hbemergency.govt.nz&lt;/sender&gt;&lt;sent&gt;2026-07-09T09:42:27-00:00&lt;/sent&gt;&lt;status&gt;Actual&lt;/status&gt;&lt;msgType&gt;Alert&lt;/msgType&gt;&lt;scope&gt;Public&lt;/scope&gt;&lt;info&gt;&lt;language&gt;en-US&lt;/language&gt;&lt;category&gt;Met&lt;/category&gt;&lt;event&gt;Wairoa Flooding 090726&lt;/event&gt;&lt;urgency&gt;Immediate&lt;/urgency&gt;&lt;severity&gt;Severe&lt;/severity&gt;&lt;certainty&gt;Observed&lt;/certainty&gt;&lt;effective&gt;2026-07-09T09:42:27-00:00&lt;/effective&gt;&lt;expires&gt;2026-07-09T13:12:27-00:00&lt;/expires&gt;&lt;senderName&gt;Hawke's Bay Civil Defence Emergency Management Group&lt;/senderName&gt;&lt;headline&gt;Flood Evacuation Wairoa - Wairoa River&lt;/headline&gt;&lt;description&gt;CIVIL DEFENCE FLOOD WARNING: EVACUATE NOW. 
+EVACUATE in you are in a low-lying area near the Wairoa River, including houses between Outram Street and Grant Street, and Kopu Road and Apatu Street. 
+EVACUATE to higher ground or inland. People in this area must leave now, take essential items and pets with you. If lives are in immediate danger dial 111.
+Avoid travelling through flood water if possible. Stay out of flooded areas until advised by officials.
+Organise to stay with friends or family if you can, or go to Wairoa War Memorial Hall a Civil Defence Centres will be established there to provided assistance
+There is serious flooding in low-lying area of Wairoa from the Wairoa River. 
+For more information visit, www.facebook.com/wairoadistrictcouncil www.hbemergency.govt.nz. Issued by Hawke's Bay Civil Defence Emergency Management: 9.42 7/9/26&lt;/description&gt;&lt;area&gt;&lt;areaDesc&gt;HBEM-FL12: Wairoa River – North Clyde &amp;amp; Wairoa&lt;/areaDesc&gt;&lt;polygon&gt;-39.06837,177.391 -39.05913,177.45388 -39.03485,177.45721 -39.01336,177.43616 -39.0211,177.38546 -39.04216,177.36164 -39.0572,177.37023 -39.06837,177.391&lt;/polygon&gt;&lt;/area&gt;&lt;/info&gt;&lt;/alert&gt;</content>
+    <summary>CIVIL DEFENCE FLOOD WARNING: EVACUATE NOW. 
+EVACUATE in you are in a low-lying area near the Wairoa River, including houses between Outram Street and Grant Street, and Kopu Road and Apatu Street. 
+EVACUATE to higher ground or inland. People in this area must leave now, take essential items and pets with you. If lives are in immediate danger dial 111.
+Avoid travelling through flood water if possible. Stay out of flooded areas until advised by officials.
+Organise to stay with friends or family if you can, or go to Wairoa War Memorial Hall a Civil Defence Centres will be established there to provided assistance
+There is serious flooding in low-lying area of Wairoa from the Wairoa River. 
+For more information visit, www.facebook.com/wairoadistrictcouncil www.hbemergency.govt.nz. Issued by Hawke's Bay Civil Defence Emergency Management: 9.42 7/9/26</summary>
+  </entry>
 </feed>
