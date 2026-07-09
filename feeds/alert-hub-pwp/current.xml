@@ -4,35 +4,5 @@
   <link rel="self" href="https://alerthub.civildefence.govt.nz/atom/pwp" />
   <subtitle>A feed of current or recent Emergency Mobile Alerts issued in New Zealand.</subtitle>
   <id>https://alerthub.civildefence.govt.nz/atom/pwp</id>
-  <updated>2026-07-06T23:28:08Z</updated>
-  <entry>
-    <title>FLOODING - Evacuate Immediately</title>
-    <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjIuMTIuNDg4LjQ4OA" />
-    <author>
-      <name>New Zealand Emergency Mobile Alert</name>
-      <email>emergency.management@nema.govt.nz</email>
-    </author>
-    <id>https://alerthub.civildefence.govt.nz/messages/cap/2.49.0.0.554.2.12.488.488#0</id>
-    <updated>2026-07-06T23:25:34Z</updated>
-    <published>2026-07-06T23:25:34Z</published>
-    <content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"&gt;&lt;identifier&gt;2.49.0.0.554.2.12.488.488&lt;/identifier&gt;&lt;sender&gt;info@cdemcanterbury.govt.nz&lt;/sender&gt;&lt;sent&gt;2026-07-06T23:25:34-00:00&lt;/sent&gt;&lt;status&gt;Actual&lt;/status&gt;&lt;msgType&gt;Alert&lt;/msgType&gt;&lt;scope&gt;Public&lt;/scope&gt;&lt;info&gt;&lt;language&gt;en-US&lt;/language&gt;&lt;category&gt;Met&lt;/category&gt;&lt;event&gt;Alert&lt;/event&gt;&lt;urgency&gt;Immediate&lt;/urgency&gt;&lt;severity&gt;Severe&lt;/severity&gt;&lt;certainty&gt;Observed&lt;/certainty&gt;&lt;effective&gt;2026-07-06T23:25:34-00:00&lt;/effective&gt;&lt;expires&gt;2026-07-07T07:25:34-00:00&lt;/expires&gt;&lt;senderName&gt;Canterbury Civil Defence Emergency Management Group&lt;/senderName&gt;&lt;headline&gt;FLOODING - Evacuate Immediately&lt;/headline&gt;&lt;description&gt;FLOODING – Evacuate immediately
-
-CIVIL DEFENCE FLOOD WARNING:  There is serious flooding in Kaikoura from the Kowhai River which has breached. 
-
-EVACUATE NOW if you are on the Kaikoura fan between Middle Ford and the township or low-lying area properties on Beach Road, Ludstone road, Grays lane, West end, or if your property flooded in 1993. Go to higher ground and stay with family or friends. Call 111 if you are in danger. Check on neighbours and share this information if doing so won’t delay you.
-
-DO NOT DRIVE OR WALK THROUGH FLOOD WATERS. The water may have washed away parts of the road and may contain debris. Treat all flood water as contaminated and unsafe. STAY AWAY from flooded areas until Civil Defence gives the all-clear. 
-
-www.kaikoura.govt.nz. Issued at 1120am Tuesday 7th of July 2026.  Issued by Canterbury Emergency Management.&lt;/description&gt;&lt;area&gt;&lt;areaDesc&gt;Alert area&lt;/areaDesc&gt;&lt;polygon&gt;-42.35157,173.70749 -42.3497,173.61681 -42.38861,173.58256 -42.42891,173.70432 -42.35157,173.70749&lt;/polygon&gt;&lt;/area&gt;&lt;/info&gt;&lt;/alert&gt;</content>
-    <summary>FLOODING – Evacuate immediately
-
-CIVIL DEFENCE FLOOD WARNING:  There is serious flooding in Kaikoura from the Kowhai River which has breached. 
-
-EVACUATE NOW if you are on the Kaikoura fan between Middle Ford and the township or low-lying area properties on Beach Road, Ludstone road, Grays lane, West end, or if your property flooded in 1993. Go to higher ground and stay with family or friends. Call 111 if you are in danger. Check on neighbours and share this information if doing so won’t delay you.
-
-DO NOT DRIVE OR WALK THROUGH FLOOD WATERS. The water may have washed away parts of the road and may contain debris. Treat all flood water as contaminated and unsafe. STAY AWAY from flooded areas until Civil Defence gives the all-clear. 
-
-www.kaikoura.govt.nz. Issued at 1120am Tuesday 7th of July 2026.  Issued by Canterbury Emergency Management.</summary>
-  </entry>
+  <updated>2026-07-09T07:28:09Z</updated>
 </feed>
