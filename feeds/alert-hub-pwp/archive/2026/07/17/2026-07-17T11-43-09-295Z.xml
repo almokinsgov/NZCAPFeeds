@@ -4,7 +4,7 @@
   <link rel="self" href="https://alerthub.civildefence.govt.nz/atom/pwp" />
   <subtitle>A feed of current or recent Emergency Mobile Alerts issued in New Zealand.</subtitle>
   <id>https://alerthub.civildefence.govt.nz/atom/pwp</id>
-  <updated>2026-07-17T11:43:12Z</updated>
+  <updated>2026-07-17T09:53:07Z</updated>
   <entry>
     <title>TSUNAMI - Evacuate Immediately</title>
     <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjIuNDkxLjQ5MA" />
@@ -50,6 +50,46 @@ Follow any additional instructions you receive from Civil Defence.
 This warning has been issued to areas where LIFE-THREATENING flooding is expected within tsunami evacuation zones. 
 
 www.civildefence.govt.nz. Issued by the National Emergency Management Agency at 09:40pm Thursday 16 July 2026</summary>
+  </entry>
+  <entry>
+    <title>TSUNAMI - National Advisory BEACH AND MARINE</title>
+    <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjIuNDkyLjQ5Mg" />
+    <author>
+      <name>New Zealand Emergency Mobile Alert</name>
+      <email>emergency.management@nema.govt.nz</email>
+    </author>
+    <id>https://alerthub.civildefence.govt.nz/messages/cap/2.49.0.0.554.2.492.492#0</id>
+    <updated>2026-07-16T10:37:27Z</updated>
+    <published>2026-07-16T10:37:15Z</published>
+    <content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"&gt;&lt;identifier&gt;2.49.0.0.554.2.492.492&lt;/identifier&gt;&lt;sender&gt;emergency.management@nema.govt.nz&lt;/sender&gt;&lt;sent&gt;2026-07-16T10:37:15-00:00&lt;/sent&gt;&lt;status&gt;Actual&lt;/status&gt;&lt;msgType&gt;Alert&lt;/msgType&gt;&lt;scope&gt;Public&lt;/scope&gt;&lt;info&gt;&lt;language&gt;en-US&lt;/language&gt;&lt;category&gt;Safety&lt;/category&gt;&lt;event&gt;Alert&lt;/event&gt;&lt;urgency&gt;Immediate&lt;/urgency&gt;&lt;severity&gt;Severe&lt;/severity&gt;&lt;certainty&gt;Observed&lt;/certainty&gt;&lt;effective&gt;2026-07-16T10:37:15-00:00&lt;/effective&gt;&lt;expires&gt;2026-07-16T22:37:15-00:00&lt;/expires&gt;&lt;senderName&gt;National Emergency Management Agency&lt;/senderName&gt;&lt;headline&gt;TSUNAMI - National Advisory BEACH AND MARINE&lt;/headline&gt;&lt;description&gt;TSUNAMI ADVISORY - FIORDLAND EARTHQUAKE: This advisory represents a DOWNGRADED to 5.9
+
+If you have evacuated you can now return home.
+
+Strong currents and surges are occurring near Fiordland. These currents and surges can injure or drown people. Stay away from beaches, shorelines, harbours, rivers, and estuaries. DO NOT GO SIGHTSEEING.
+
+People with boats and live-aboards should remain onshore unless directed otherwise. IF YOU ARE ONSHORE, EVACUATION IS NOT REQUIRED, but STAY AWAY FROM WATER.
+
+This advisory applies to the West Coast of the South Island from MILFORD SOUND to PUYSEGUR POINT. 
+Tsunami activity has already reached parts of NZ. Initial surges may not be the largest, and activity could continue for hours. Treat the threat as real until the advisory is cancelled.
+ 
+For updates, visit www.otagocdem.govt.nz.
+
+Issued by the National Emergency Management Agency at 10:35pm 16/07/2026&lt;/description&gt;&lt;area&gt;&lt;areaDesc&gt;TS37: Fiordland&lt;/areaDesc&gt;&lt;polygon&gt;-46.03461,167.17668 -45.95131,167.09189 -45.85843,167.03928 -45.7167,167.06914 -45.57279,167.14202 -45.39742,167.24352 -44.98764,167.6134 -44.68681,168.06083 -44.54718,168.14263 -44.38989,168.33521 -44.24578,168.03901 -44.39851,167.83865 -44.53301,167.75344 -44.82969,167.27069 -45.24439,166.79703 -45.55401,166.60717 -45.69053,166.40106 -46.00486,166.38503 -46.23429,166.64715 -46.29673,167.38042 -46.03461,167.17668&lt;/polygon&gt;&lt;/area&gt;&lt;/info&gt;&lt;/alert&gt;</content>
+    <summary>TSUNAMI ADVISORY - FIORDLAND EARTHQUAKE: This advisory represents a DOWNGRADED to 5.9
+
+If you have evacuated you can now return home.
+
+Strong currents and surges are occurring near Fiordland. These currents and surges can injure or drown people. Stay away from beaches, shorelines, harbours, rivers, and estuaries. DO NOT GO SIGHTSEEING.
+
+People with boats and live-aboards should remain onshore unless directed otherwise. IF YOU ARE ONSHORE, EVACUATION IS NOT REQUIRED, but STAY AWAY FROM WATER.
+
+This advisory applies to the West Coast of the South Island from MILFORD SOUND to PUYSEGUR POINT. 
+Tsunami activity has already reached parts of NZ. Initial surges may not be the largest, and activity could continue for hours. Treat the threat as real until the advisory is cancelled.
+ 
+For updates, visit www.otagocdem.govt.nz.
+
+Issued by the National Emergency Management Agency at 10:35pm 16/07/2026</summary>
   </entry>
   <entry>
     <title>TSUNAMI - National Advisory BEACH AND MARINE</title>
