@@ -4,7 +4,7 @@
   <link rel="self" href="https://alerthub.civildefence.govt.nz/atom/pwp" />
   <subtitle>A feed of current or recent Emergency Mobile Alerts issued in New Zealand.</subtitle>
   <id>https://alerthub.civildefence.govt.nz/atom/pwp</id>
-  <updated>2026-08-10T23:48:07Z</updated>
+  <updated>2026-08-10T03:28:12Z</updated>
   <entry>
     <title>WATER SUPPLY EMERGENCY - OHAKUNE</title>
     <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjIuNy40OTQuNDk0" />
@@ -49,32 +49,6 @@ Issued by Manawatu-Whanganui Emergency Management Group at 1.10pm on Sun 9 Augus
     <published>2026-08-10T03:26:08Z</published>
     <content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"&gt;&lt;identifier&gt;2.49.0.0.554.2.7.495.495&lt;/identifier&gt;&lt;sender&gt;help@horizons.govt.nz&lt;/sender&gt;&lt;sent&gt;2026-08-10T03:26:08-00:00&lt;/sent&gt;&lt;status&gt;Actual&lt;/status&gt;&lt;msgType&gt;Alert&lt;/msgType&gt;&lt;scope&gt;Public&lt;/scope&gt;&lt;info&gt;&lt;language&gt;en-US&lt;/language&gt;&lt;category&gt;Safety&lt;/category&gt;&lt;event&gt;Alert&lt;/event&gt;&lt;urgency&gt;Immediate&lt;/urgency&gt;&lt;severity&gt;Severe&lt;/severity&gt;&lt;certainty&gt;Observed&lt;/certainty&gt;&lt;effective&gt;2026-08-10T03:26:08-00:00&lt;/effective&gt;&lt;expires&gt;2026-08-11T03:26:08-00:00&lt;/expires&gt;&lt;senderName&gt;Manawatu-Whanganui Civil Defence Emergency Management Group&lt;/senderName&gt;&lt;headline&gt;WATER SUPPLY EMERGENCY - OHAKUNE&lt;/headline&gt;&lt;description&gt;WATER SUPPLY EMERGENCY - OHAKUNE
-Ohakune is without water due to an infrastructure issue. DO NOT TRY TO USE TAP WATER OR FLUSH TOILETS.
-Water was hoped to be online at 5pm Monday 10 August. However, more time is needed before the water system can operate without possibly causing damage. Water is now expected to be restored by approx. 5pm Tuesday 11 August.
-Emergency water supplies are available from Ruapehu District Council office at 37 Ayr St. People who have collected water bottles previously can return and reuse water bottles at this same location.
-Port-a-loos are located at; Council office 37 Ayr St; Thames Street opposite the Powderhorn; Goldfinch Street / Shannon Street; Rear carpark of the Ohakune iSITE.
-For updates, visit Ruapehu District Council Facebook page or mwcdem.govt.nz, and listen to local radio stations.
-Issued by Manawatu Whanganui Emergency Management Group at 3.25pm Monday 10 August.&lt;/description&gt;&lt;area&gt;&lt;areaDesc&gt;Ohakune&lt;/areaDesc&gt;&lt;polygon&gt;-39.41418,175.38695 -39.42426,175.39057 -39.42875,175.41395 -39.42449,175.43052 -39.41219,175.43496 -39.39545,175.42841 -39.39334,175.39794 -39.39765,175.3796 -39.41418,175.38695&lt;/polygon&gt;&lt;/area&gt;&lt;/info&gt;&lt;/alert&gt;</content>
-    <summary>WATER SUPPLY EMERGENCY - OHAKUNE
-Ohakune is without water due to an infrastructure issue. DO NOT TRY TO USE TAP WATER OR FLUSH TOILETS.
-Water was hoped to be online at 5pm Monday 10 August. However, more time is needed before the water system can operate without possibly causing damage. Water is now expected to be restored by approx. 5pm Tuesday 11 August.
-Emergency water supplies are available from Ruapehu District Council office at 37 Ayr St. People who have collected water bottles previously can return and reuse water bottles at this same location.
-Port-a-loos are located at; Council office 37 Ayr St; Thames Street opposite the Powderhorn; Goldfinch Street / Shannon Street; Rear carpark of the Ohakune iSITE.
-For updates, visit Ruapehu District Council Facebook page or mwcdem.govt.nz, and listen to local radio stations.
-Issued by Manawatu Whanganui Emergency Management Group at 3.25pm Monday 10 August.</summary>
-  </entry>
-  <entry>
-    <title>WATER SUPPLY EMERGENCY - OHAKUNE</title>
-    <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjIuNy40OTcuNDk1" />
-    <author>
-      <name>New Zealand Emergency Mobile Alert</name>
-      <email>emergency.management@nema.govt.nz</email>
-    </author>
-    <id>https://alerthub.civildefence.govt.nz/messages/cap/2.49.0.0.554.2.7.497.495#0</id>
-    <updated>2026-08-10T23:43:16Z</updated>
-    <published>2026-08-10T23:43:15Z</published>
-    <content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"&gt;&lt;identifier&gt;2.49.0.0.554.2.7.497.495&lt;/identifier&gt;&lt;sender&gt;help@horizons.govt.nz&lt;/sender&gt;&lt;sent&gt;2026-08-10T23:43:15-00:00&lt;/sent&gt;&lt;status&gt;Actual&lt;/status&gt;&lt;msgType&gt;Cancel&lt;/msgType&gt;&lt;scope&gt;Public&lt;/scope&gt;&lt;references&gt;help@horizons.govt.nz,2.49.0.0.554.2.7.495.495,2026-08-10T03:26:08-00:00&lt;/references&gt;&lt;info&gt;&lt;language&gt;en-US&lt;/language&gt;&lt;category&gt;Safety&lt;/category&gt;&lt;event&gt;Alert&lt;/event&gt;&lt;urgency&gt;Immediate&lt;/urgency&gt;&lt;severity&gt;Severe&lt;/severity&gt;&lt;certainty&gt;Observed&lt;/certainty&gt;&lt;effective&gt;2026-08-10T23:43:15-00:00&lt;/effective&gt;&lt;expires&gt;2026-08-10T23:43:15-00:00&lt;/expires&gt;&lt;senderName&gt;Manawatu-Whanganui Civil Defence Emergency Management Group&lt;/senderName&gt;&lt;headline&gt;WATER SUPPLY EMERGENCY - OHAKUNE&lt;/headline&gt;&lt;description&gt;WATER SUPPLY EMERGENCY - OHAKUNE
 Ohakune is without water due to an infrastructure issue. DO NOT TRY TO USE TAP WATER OR FLUSH TOILETS.
 Water was hoped to be online at 5pm Monday 10 August. However, more time is needed before the water system can operate without possibly causing damage. Water is now expected to be restored by approx. 5pm Tuesday 11 August.
 Emergency water supplies are available from Ruapehu District Council office at 37 Ayr St. People who have collected water bottles previously can return and reuse water bottles at this same location.
