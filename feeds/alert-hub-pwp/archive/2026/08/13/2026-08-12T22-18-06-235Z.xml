@@ -4,7 +4,7 @@
   <link rel="self" href="https://alerthub.civildefence.govt.nz/atom/pwp" />
   <subtitle>A feed of current or recent Emergency Mobile Alerts issued in New Zealand.</subtitle>
   <id>https://alerthub.civildefence.govt.nz/atom/pwp</id>
-  <updated>2026-08-12T22:18:07Z</updated>
+  <updated>2026-08-12T01:13:08Z</updated>
   <entry>
     <title>WATER SUPPLY EMERGENCY - OHAKUNE</title>
     <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjIuNy40OTcuNDk1" />
@@ -30,6 +30,48 @@ Emergency water supplies are available from Ruapehu District Council office at 3
 Port-a-loos are located at; Council office 37 Ayr St; Thames Street opposite the Powderhorn; Goldfinch Street / Shannon Street; Rear carpark of the Ohakune iSITE.
 For updates, visit Ruapehu District Council Facebook page or mwcdem.govt.nz, and listen to local radio stations.
 Issued by Manawatu Whanganui Emergency Management Group at 3.25pm Monday 10 August.</summary>
+  </entry>
+  <entry>
+    <title>WATER SUPPLY EMERGENCY - OHAKUNE</title>
+    <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjIuNy40OTguNDk4" />
+    <author>
+      <name>New Zealand Emergency Mobile Alert</name>
+      <email>emergency.management@nema.govt.nz</email>
+    </author>
+    <id>https://alerthub.civildefence.govt.nz/messages/cap/2.49.0.0.554.2.7.498.498#0</id>
+    <updated>2026-08-10T23:48:25Z</updated>
+    <published>2026-08-10T23:48:24Z</published>
+    <content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"&gt;&lt;identifier&gt;2.49.0.0.554.2.7.498.498&lt;/identifier&gt;&lt;sender&gt;help@horizons.govt.nz&lt;/sender&gt;&lt;sent&gt;2026-08-10T23:48:24-00:00&lt;/sent&gt;&lt;status&gt;Actual&lt;/status&gt;&lt;msgType&gt;Alert&lt;/msgType&gt;&lt;scope&gt;Public&lt;/scope&gt;&lt;info&gt;&lt;language&gt;en-US&lt;/language&gt;&lt;category&gt;Safety&lt;/category&gt;&lt;event&gt;Alert&lt;/event&gt;&lt;urgency&gt;Immediate&lt;/urgency&gt;&lt;severity&gt;Severe&lt;/severity&gt;&lt;certainty&gt;Observed&lt;/certainty&gt;&lt;effective&gt;2026-08-10T23:48:24-00:00&lt;/effective&gt;&lt;expires&gt;2026-08-11T23:48:24-00:00&lt;/expires&gt;&lt;senderName&gt;Manawatu-Whanganui Civil Defence Emergency Management Group&lt;/senderName&gt;&lt;headline&gt;WATER SUPPLY EMERGENCY - OHAKUNE&lt;/headline&gt;&lt;description&gt;BOIL WATER NOTICE - OHAKUNE
+
+Please continue to conserve water as the Ohakune town supply is returned. THIS WATER MUST BE BOILED BEFORE CONSUMPTION.
+
+Bring tap water to a rolling boil for at least two minutes, then allow to cool before drinking or using for food preparation.
+
+Use boiled water for any activity where it may be swallowed, including brushing teeth, making ice, preparing infant formula, washing food, and mixing drinks/juices.
+
+Take extra care with infants and young children, elderly people, and people with compromised immune systems.
+
+Share this information with anyone else who may be affected by this. Boil water notice is in place until further notice.
+
+For updates, visit Ruapehu District Council Facebook page or mwcdem.govt.nz, and listen to local radio stations.
+
+Issued by Manawatu-Whanganui Emergency Management Group at 11.48am on Tuesday 11 August.&lt;/description&gt;&lt;area&gt;&lt;areaDesc&gt;Ohakune&lt;/areaDesc&gt;&lt;polygon&gt;-39.41418,175.38695 -39.42426,175.39057 -39.42875,175.41395 -39.42449,175.43052 -39.41219,175.43496 -39.39545,175.42841 -39.39334,175.39794 -39.39765,175.3796 -39.41418,175.38695&lt;/polygon&gt;&lt;/area&gt;&lt;/info&gt;&lt;/alert&gt;</content>
+    <summary>BOIL WATER NOTICE - OHAKUNE
+
+Please continue to conserve water as the Ohakune town supply is returned. THIS WATER MUST BE BOILED BEFORE CONSUMPTION.
+
+Bring tap water to a rolling boil for at least two minutes, then allow to cool before drinking or using for food preparation.
+
+Use boiled water for any activity where it may be swallowed, including brushing teeth, making ice, preparing infant formula, washing food, and mixing drinks/juices.
+
+Take extra care with infants and young children, elderly people, and people with compromised immune systems.
+
+Share this information with anyone else who may be affected by this. Boil water notice is in place until further notice.
+
+For updates, visit Ruapehu District Council Facebook page or mwcdem.govt.nz, and listen to local radio stations.
+
+Issued by Manawatu-Whanganui Emergency Management Group at 11.48am on Tuesday 11 August.</summary>
   </entry>
   <entry>
     <title>WATER SUPPLY EMERGENCY - OHAKUNE</title>
