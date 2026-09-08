@@ -1,0 +1,1002 @@
+{
+  "type": "FeatureCollection",
+  "name": "D4H Leaflet capability probe v0.3.0",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N01 props marker-icon star red small",
+        "marker-color": "#e31a1c",
+        "marker-size": "small",
+        "marker-icon": "fa fa-star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.275,
+          -35.114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N02 geom.style star red small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.278,
+          -35.114
+        ],
+        "style": {
+          "marker-color": "#e31a1c",
+          "marker-size": "small",
+          "marker-icon": "fa fa-star"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N03 conflict props red star vs geom green flag",
+        "marker-color": "#e31a1c",
+        "marker-size": "small",
+        "marker-icon": "fa fa-star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.281,
+          -35.114
+        ],
+        "style": {
+          "marker-color": "#33a02c",
+          "marker-size": "large",
+          "marker-icon": "fa fa-flag"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N04 props warning icon orange large",
+        "marker-color": "#ff7f00",
+        "marker-size": "large",
+        "marker-icon": "fa fa-exclamation-triangle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.284,
+          -35.114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N05 props fire icon red medium",
+        "marker-color": "#fb0000",
+        "marker-size": "medium",
+        "marker-icon": "fa fa-fire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.275,
+          -35.1115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N06 props medkit icon blue medium",
+        "marker-color": "#1f78b4",
+        "marker-size": "medium",
+        "marker-icon": "fa fa-medkit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.278,
+          -35.1115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N07 props map-marker icon purple medium",
+        "marker-color": "#6a3d9a",
+        "marker-size": "medium",
+        "marker-icon": "fa fa-map-marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.281,
+          -35.1115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N08 props circle green large",
+        "marker-color": "#33a02c",
+        "marker-size": "large",
+        "marker-icon": "fa fa-circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.284,
+          -35.1115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S01 props SimpleStyle purple wide",
+        "stroke": "#6a3d9a",
+        "stroke-width": 9,
+        "stroke-opacity": 0.75
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.274,
+            -35.1075
+          ],
+          [
+            173.278,
+            -35.1075
+          ],
+          [
+            173.282,
+            -35.1075
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S02 geom.style orange thin"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.274,
+            -35.1055
+          ],
+          [
+            173.278,
+            -35.1055
+          ],
+          [
+            173.282,
+            -35.1055
+          ]
+        ],
+        "style": {
+          "stroke": "#ff7f00",
+          "stroke-width": 2,
+          "stroke-opacity": 1
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S03 conflict props red wide vs geom blue thin",
+        "stroke": "#e31a1c",
+        "stroke-width": 10,
+        "stroke-opacity": 0.9
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.274,
+            -35.103500000000004
+          ],
+          [
+            173.278,
+            -35.103500000000004
+          ],
+          [
+            173.282,
+            -35.103500000000004
+          ]
+        ],
+        "style": {
+          "stroke": "#1f78b4",
+          "stroke-width": 2,
+          "stroke-opacity": 0.3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S04 same-name split line part A",
+        "stroke": "#33a02c",
+        "stroke-width": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.284,
+            -35.1075
+          ],
+          [
+            173.288,
+            -35.1075
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S04 same-name split line part B",
+        "stroke": "#33a02c",
+        "stroke-width": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.284,
+            -35.106500000000004
+          ],
+          [
+            173.288,
+            -35.106500000000004
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F01 props fill cyan blue outline",
+        "stroke": "#1f78b4",
+        "stroke-width": 5,
+        "stroke-opacity": 0.9,
+        "fill": "#a6cee3",
+        "fill-opacity": 0.65
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.274,
+              -35.1005
+            ],
+            [
+              173.2767,
+              -35.1005
+            ],
+            [
+              173.2767,
+              -35.098499999999994
+            ],
+            [
+              173.274,
+              -35.098499999999994
+            ],
+            [
+              173.274,
+              -35.1005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F02 geom.style yellow brown outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.278,
+              -35.1005
+            ],
+            [
+              173.2807,
+              -35.1005
+            ],
+            [
+              173.2807,
+              -35.098499999999994
+            ],
+            [
+              173.278,
+              -35.098499999999994
+            ],
+            [
+              173.278,
+              -35.1005
+            ]
+          ]
+        ],
+        "style": {
+          "stroke": "#b15928",
+          "stroke-width": 6,
+          "stroke-opacity": 0.8,
+          "fill": "#ffff99",
+          "fill-opacity": 0.55
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F03 conflict props green vs geom red",
+        "stroke": "#006d2c",
+        "stroke-width": 7,
+        "stroke-opacity": 0.9,
+        "fill": "#74c476",
+        "fill-opacity": 0.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.282,
+              -35.1005
+            ],
+            [
+              173.28470000000002,
+              -35.1005
+            ],
+            [
+              173.28470000000002,
+              -35.098499999999994
+            ],
+            [
+              173.282,
+              -35.098499999999994
+            ],
+            [
+              173.282,
+              -35.1005
+            ]
+          ]
+        ],
+        "style": {
+          "stroke": "#99000d",
+          "stroke-width": 2,
+          "stroke-opacity": 0.4,
+          "fill": "#fc9272",
+          "fill-opacity": 0.2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F04 fill-opacity zero",
+        "stroke": "#54278f",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "fill": "#756bb1",
+        "fill-opacity": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.286,
+              -35.1005
+            ],
+            [
+              173.2887,
+              -35.1005
+            ],
+            [
+              173.2887,
+              -35.098499999999994
+            ],
+            [
+              173.286,
+              -35.098499999999994
+            ],
+            [
+              173.286,
+              -35.1005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F05 stroke-opacity zero",
+        "stroke": "#000000",
+        "stroke-width": 8,
+        "stroke-opacity": 0,
+        "fill": "#fdae6b",
+        "fill-opacity": 0.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.29,
+              -35.1005
+            ],
+            [
+              173.2927,
+              -35.1005
+            ],
+            [
+              173.2927,
+              -35.098499999999994
+            ],
+            [
+              173.29,
+              -35.098499999999994
+            ],
+            [
+              173.29,
+              -35.1005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F06 hole with native style",
+        "stroke": "#6a3d9a",
+        "stroke-width": 4,
+        "stroke-opacity": 0.8,
+        "fill": "#cab2d6",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.274,
+              -35.0967
+            ],
+            [
+              173.279,
+              -35.0967
+            ],
+            [
+              173.279,
+              -35.093199999999996
+            ],
+            [
+              173.274,
+              -35.093199999999996
+            ],
+            [
+              173.274,
+              -35.0967
+            ]
+          ],
+          [
+            [
+              173.2754,
+              -35.0957
+            ],
+            [
+              173.27759999999998,
+              -35.0957
+            ],
+            [
+              173.27759999999998,
+              -35.0942
+            ],
+            [
+              173.2754,
+              -35.0942
+            ],
+            [
+              173.2754,
+              -35.0957
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "M01 MultiPolygon native style",
+        "stroke": "#1f78b4",
+        "stroke-width": 4,
+        "stroke-opacity": 0.8,
+        "fill": "#a6cee3",
+        "fill-opacity": 0.45
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                173.281,
+                -35.0965
+              ],
+              [
+                173.28300000000002,
+                -35.0965
+              ],
+              [
+                173.28300000000002,
+                -35.095
+              ],
+              [
+                173.281,
+                -35.095
+              ],
+              [
+                173.281,
+                -35.0965
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                173.284,
+                -35.0965
+              ],
+              [
+                173.286,
+                -35.0965
+              ],
+              [
+                173.286,
+                -35.095
+              ],
+              [
+                173.284,
+                -35.095
+              ],
+              [
+                173.284,
+                -35.0965
+              ]
+            ]
+          ]
+        ],
+        "style": {
+          "stroke": "#1f78b4",
+          "stroke-width": 4,
+          "stroke-opacity": 0.8,
+          "fill": "#a6cee3",
+          "fill-opacity": 0.45
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "G02 GeometryCollection styled children"
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              173.289,
+              -35.0955
+            ],
+            "style": {
+              "marker-color": "#e31a1c",
+              "marker-size": "large",
+              "marker-icon": "fa fa-star"
+            }
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                173.288,
+                -35.0945
+              ],
+              [
+                173.292,
+                -35.0945
+              ]
+            ],
+            "style": {
+              "stroke": "#ff7f00",
+              "stroke-width": 7,
+              "stroke-opacity": 0.9,
+              "fill": "#ff7f00",
+              "fill-opacity": 0.2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I01 image property data URI",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "stroke": "#222222",
+        "stroke-width": 3,
+        "fill": "#f7d154",
+        "fill-opacity": 0.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.296,
+              -35.1145
+            ],
+            [
+              173.299,
+              -35.1145
+            ],
+            [
+              173.299,
+              -35.1125
+            ],
+            [
+              173.296,
+              -35.1125
+            ],
+            [
+              173.296,
+              -35.1145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I02 imageUrl property data URI",
+        "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==",
+        "image-url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==",
+        "stroke": "#222222",
+        "stroke-width": 3,
+        "fill": "#77c4d3",
+        "fill-opacity": 0.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.3,
+              -35.1145
+            ],
+            [
+              173.303,
+              -35.1145
+            ],
+            [
+              173.303,
+              -35.1125
+            ],
+            [
+              173.3,
+              -35.1125
+            ],
+            [
+              173.3,
+              -35.1145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I03 href and url properties data URI",
+        "href": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "stroke": "#222222",
+        "stroke-width": 3,
+        "fill": "#ef8a62",
+        "fill-opacity": 0.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.304,
+              -35.1145
+            ],
+            [
+              173.307,
+              -35.1145
+            ],
+            [
+              173.307,
+              -35.1125
+            ],
+            [
+              173.304,
+              -35.1125
+            ],
+            [
+              173.304,
+              -35.1145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I04 geometry.style image and imageUrl"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.296,
+              -35.1115
+            ],
+            [
+              173.299,
+              -35.1115
+            ],
+            [
+              173.299,
+              -35.1095
+            ],
+            [
+              173.296,
+              -35.1095
+            ],
+            [
+              173.296,
+              -35.1115
+            ]
+          ]
+        ],
+        "style": {
+          "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+          "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+          "stroke": "#6a3d9a",
+          "stroke-width": 4,
+          "fill": "#cab2d6",
+          "fill-opacity": 0.3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I05 geometry.style CSS background image"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.3,
+              -35.1115
+            ],
+            [
+              173.303,
+              -35.1115
+            ],
+            [
+              173.303,
+              -35.1095
+            ],
+            [
+              173.3,
+              -35.1095
+            ],
+            [
+              173.3,
+              -35.1115
+            ]
+          ]
+        ],
+        "style": {
+          "background-image": "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==)",
+          "backgroundImage": "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==)",
+          "fill-pattern": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==",
+          "stroke": "#1f78b4",
+          "stroke-width": 4,
+          "fill": "#a6cee3",
+          "fill-opacity": 0.3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I06 D4H internal overlay-shaped properties",
+        "$doctype": "map_image_overlay",
+        "layerType": "image_overlay",
+        "bounds": {
+          "southWest": {
+            "lat": -35.1115,
+            "lng": 173.304
+          },
+          "northEast": {
+            "lat": -35.1095,
+            "lng": 173.307
+          }
+        },
+        "rotation": 27,
+        "order": 7,
+        "image": [
+          {
+            "_id": "probe-image-not-a-real-d4h-file",
+            "name": "embedded-probe.svg",
+            "dataUri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg=="
+          }
+        ],
+        "stroke": "#b15928",
+        "stroke-width": 4,
+        "fill": "#ffff99",
+        "fill-opacity": 0.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.304,
+              -35.1115
+            ],
+            [
+              173.307,
+              -35.1115
+            ],
+            [
+              173.307,
+              -35.1095
+            ],
+            [
+              173.304,
+              -35.1095
+            ],
+            [
+              173.304,
+              -35.1115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I07 point iconUrl data URI",
+        "iconUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "icon-url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "marker-color": "#ff7f00",
+        "marker-size": "large"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2975,
+          -35.1082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I08 point marker-icon data URI",
+        "marker-icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==",
+        "marker-color": "#33a02c",
+        "marker-size": "large"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3015,
+          -35.1082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I09 point geometry.style iconUrl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3055,
+          -35.1082
+        ],
+        "style": {
+          "iconUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+          "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+          "marker-icon": "fa fa-image",
+          "marker-color": "#6a3d9a",
+          "marker-size": "large"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I10 bounds rotation order only",
+        "bounds": {
+          "southWest": {
+            "lat": -35.1115,
+            "lng": 173.308
+          },
+          "northEast": {
+            "lat": -35.1095,
+            "lng": 173.311
+          }
+        },
+        "rotation": 90,
+        "order": 99,
+        "layerType": "image_overlay",
+        "stroke": "#000000",
+        "stroke-width": 3,
+        "fill": "#fdae6b",
+        "fill-opacity": 0.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.308,
+              -35.1115
+            ],
+            [
+              173.311,
+              -35.1115
+            ],
+            [
+              173.311,
+              -35.1095
+            ],
+            [
+              173.308,
+              -35.1095
+            ],
+            [
+              173.308,
+              -35.1115
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

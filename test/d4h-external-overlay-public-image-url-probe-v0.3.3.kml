@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>D4H URL image overlay probe v0.3.3</name>
+
+    <GroundOverlay>
+      <name>GROUND01 placehold.co public URL</name>
+      <drawOrder>1</drawOrder>
+      <Icon>
+        <href>https://placehold.co/1200x800/0b6fa4/ffffff.png?text=D4H+URL+GROUND+OVERLAY+V0.3.3</href>
+      </Icon>
+      <LatLonBox>
+        <north>-35.10650</north>
+        <south>-35.11352</south>
+        <east>173.30100</east>
+        <west>173.29679</west>
+        <rotation>0</rotation>
+      </LatLonBox>
+    </GroundOverlay>
+
+    <GroundOverlay>
+      <name>GROUND02 Wikimedia direct image URL</name>
+      <drawOrder>2</drawOrder>
+      <Icon>
+        <href>https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png</href>
+      </Icon>
+      <LatLonBox>
+        <north>-35.10650</north>
+        <south>-35.11352</south>
+        <east>173.30538</east>
+        <west>173.30100</west>
+        <rotation>0</rotation>
+      </LatLonBox>
+    </GroundOverlay>
+
+    <Style id="public-url-icon">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>https://placehold.co/96x96/f59e0b/ffffff.png?text=URL+ICON</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <Placemark>
+      <name>ICON01 public URL KML marker</name>
+      <styleUrl>#public-url-icon</styleUrl>
+      <Point>
+        <coordinates>173.301085,-35.11001,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

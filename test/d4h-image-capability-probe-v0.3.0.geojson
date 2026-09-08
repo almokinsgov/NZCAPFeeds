@@ -1,0 +1,367 @@
+{
+  "type": "FeatureCollection",
+  "name": "D4H image capability probe v0.3.0",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I01 image property data URI",
+        "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "stroke": "#222222",
+        "stroke-width": 3,
+        "fill": "#f7d154",
+        "fill-opacity": 0.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.296,
+              -35.1145
+            ],
+            [
+              173.299,
+              -35.1145
+            ],
+            [
+              173.299,
+              -35.1125
+            ],
+            [
+              173.296,
+              -35.1125
+            ],
+            [
+              173.296,
+              -35.1145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I02 imageUrl property data URI",
+        "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==",
+        "image-url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==",
+        "stroke": "#222222",
+        "stroke-width": 3,
+        "fill": "#77c4d3",
+        "fill-opacity": 0.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.3,
+              -35.1145
+            ],
+            [
+              173.303,
+              -35.1145
+            ],
+            [
+              173.303,
+              -35.1125
+            ],
+            [
+              173.3,
+              -35.1125
+            ],
+            [
+              173.3,
+              -35.1145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I03 href and url properties data URI",
+        "href": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "stroke": "#222222",
+        "stroke-width": 3,
+        "fill": "#ef8a62",
+        "fill-opacity": 0.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.304,
+              -35.1145
+            ],
+            [
+              173.307,
+              -35.1145
+            ],
+            [
+              173.307,
+              -35.1125
+            ],
+            [
+              173.304,
+              -35.1125
+            ],
+            [
+              173.304,
+              -35.1145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I04 geometry.style image and imageUrl"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.296,
+              -35.1115
+            ],
+            [
+              173.299,
+              -35.1115
+            ],
+            [
+              173.299,
+              -35.1095
+            ],
+            [
+              173.296,
+              -35.1095
+            ],
+            [
+              173.296,
+              -35.1115
+            ]
+          ]
+        ],
+        "style": {
+          "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+          "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+          "stroke": "#6a3d9a",
+          "stroke-width": 4,
+          "fill": "#cab2d6",
+          "fill-opacity": 0.3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I05 geometry.style CSS background image"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.3,
+              -35.1115
+            ],
+            [
+              173.303,
+              -35.1115
+            ],
+            [
+              173.303,
+              -35.1095
+            ],
+            [
+              173.3,
+              -35.1095
+            ],
+            [
+              173.3,
+              -35.1115
+            ]
+          ]
+        ],
+        "style": {
+          "background-image": "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==)",
+          "backgroundImage": "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==)",
+          "fill-pattern": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==",
+          "stroke": "#1f78b4",
+          "stroke-width": 4,
+          "fill": "#a6cee3",
+          "fill-opacity": 0.3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I06 D4H internal overlay-shaped properties",
+        "$doctype": "map_image_overlay",
+        "layerType": "image_overlay",
+        "bounds": {
+          "southWest": {
+            "lat": -35.1115,
+            "lng": 173.304
+          },
+          "northEast": {
+            "lat": -35.1095,
+            "lng": 173.307
+          }
+        },
+        "rotation": 27,
+        "order": 7,
+        "image": [
+          {
+            "_id": "probe-image-not-a-real-d4h-file",
+            "name": "embedded-probe.svg",
+            "dataUri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg=="
+          }
+        ],
+        "stroke": "#b15928",
+        "stroke-width": 4,
+        "fill": "#ffff99",
+        "fill-opacity": 0.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.304,
+              -35.1115
+            ],
+            [
+              173.307,
+              -35.1115
+            ],
+            [
+              173.307,
+              -35.1095
+            ],
+            [
+              173.304,
+              -35.1095
+            ],
+            [
+              173.304,
+              -35.1115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I07 point iconUrl data URI",
+        "iconUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "icon-url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+        "marker-color": "#ff7f00",
+        "marker-size": "large"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2975,
+          -35.1082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I08 point marker-icon data URI",
+        "marker-icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiM3N2M0ZDMiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5CPC90ZXh0Pjwvc3ZnPg==",
+        "marker-color": "#33a02c",
+        "marker-size": "large"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3015,
+          -35.1082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I09 point geometry.style iconUrl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3055,
+          -35.1082
+        ],
+        "style": {
+          "iconUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+          "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDk2IDY0Ij48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iNjQiIGZpbGw9IiNmN2QxNTQiLz48cGF0aCBkPSJNMCAwTDk2IDY0TTk2IDBMMCA2NCIgc3Ryb2tlPSIjMmIyYjJiIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI0OCIgeT0iMzgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmaWxsPSIjMmIyYjJiIj5BPC90ZXh0Pjwvc3ZnPg==",
+          "marker-icon": "fa fa-image",
+          "marker-color": "#6a3d9a",
+          "marker-size": "large"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I10 bounds rotation order only",
+        "bounds": {
+          "southWest": {
+            "lat": -35.1115,
+            "lng": 173.308
+          },
+          "northEast": {
+            "lat": -35.1095,
+            "lng": 173.311
+          }
+        },
+        "rotation": 90,
+        "order": 99,
+        "layerType": "image_overlay",
+        "stroke": "#000000",
+        "stroke-width": 3,
+        "fill": "#fdae6b",
+        "fill-opacity": 0.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.308,
+              -35.1115
+            ],
+            [
+              173.311,
+              -35.1115
+            ],
+            [
+              173.311,
+              -35.1095
+            ],
+            [
+              173.308,
+              -35.1095
+            ],
+            [
+              173.308,
+              -35.1115
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

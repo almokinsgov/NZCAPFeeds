@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>D4H image-only point icon v0.4.0</name>
+    <Style id="imageIcon">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon><href>https://placehold.co/256x256/CC5500/FFFFFF.png?text=D4H+IMAGE+ICON</href></Icon>
+        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>IMG03 public URL image icon</name>
+      <styleUrl>#imageIcon</styleUrl>
+      <Point><coordinates>173.30110,-35.10980,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
