@@ -1,0 +1,321 @@
+{
+  "type": "FeatureCollection",
+  "name": "D4H Leaflet capability probe v0.1.0",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "P01",
+      "properties": {
+        "name": "P01 Baseline point: name",
+        "test_group": "Name extraction",
+        "test": "Lower-case name only",
+        "expected": "Name should appear if D4H follows its documented name extraction rule"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2600, -35.1140]}
+    },
+    {
+      "type": "Feature",
+      "id": "P02",
+      "properties": {
+        "Name": "P02 Baseline point: Name",
+        "test_group": "Name extraction",
+        "test": "Capitalised Name only",
+        "expected": "Name should appear"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2630, -35.1140]}
+    },
+    {
+      "type": "Feature",
+      "id": "P03",
+      "properties": {
+        "LABEL": "P03 Baseline point: LABEL",
+        "test_group": "Name extraction",
+        "test": "Upper-case LABEL only",
+        "expected": "Name should appear"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2660, -35.1140]}
+    },
+    {
+      "type": "Feature",
+      "id": "P04",
+      "properties": {
+        "Title": "P04 Baseline point: Title",
+        "test_group": "Name extraction",
+        "test": "Title only",
+        "expected": "Name should appear"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2690, -35.1140]}
+    },
+    {
+      "type": "Feature",
+      "id": "P05",
+      "properties": {
+        "name": "P05 SimpleStyle marker",
+        "test_group": "SimpleStyle point styling",
+        "test": "marker-color, marker-size and marker-symbol",
+        "marker-color": "#e31a1c",
+        "marker-size": "large",
+        "marker-symbol": "star",
+        "expected": "If SimpleStyle is supported this should differ from the D4H default marker"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2600, -35.1115]}
+    },
+    {
+      "type": "Feature",
+      "id": "P06",
+      "properties": {
+        "name": "P06 Leaflet circle marker properties",
+        "test_group": "Leaflet-like point styling",
+        "test": "radius, color, weight, opacity, fillColor and fillOpacity",
+        "radius": 14,
+        "color": "#111111",
+        "weight": 5,
+        "opacity": 0.65,
+        "fillColor": "#33a02c",
+        "fillOpacity": 0.35,
+        "expected": "Normally ignored by plain L.geoJSON unless D4H maps these properties into pointToLayer/style"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2630, -35.1115]}
+    },
+    {
+      "type": "Feature",
+      "id": "P07",
+      "properties": {
+        "name": "P07 Icon URL properties",
+        "test_group": "Custom marker icon",
+        "test": "iconUrl, iconSize and iconAnchor",
+        "iconUrl": "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+        "iconSize": [25, 41],
+        "iconAnchor": [12, 41],
+        "popupAnchor": [1, -34],
+        "expected": "Only works if D4H explicitly reads icon properties. GeoJSON itself cannot instantiate L.Icon"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2660, -35.1115]}
+    },
+    {
+      "type": "Feature",
+      "id": "P08",
+      "properties": {
+        "name": "P08 Popup and tooltip strings",
+        "test_group": "Interaction metadata",
+        "test": "description, popupContent, tooltip and titleText",
+        "description": "Plain description value. If D4H shows all attributes this should be visible somewhere.",
+        "popupContent": "Popup candidate: this string is not executable Leaflet code.",
+        "tooltip": "Tooltip candidate: hover over P08.",
+        "titleText": "Title candidate: P08 hover text",
+        "expected": "These are arbitrary properties unless D4H binds them to UI behaviour"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2690, -35.1115]}
+    },
+    {
+      "type": "Feature",
+      "id": "P09",
+      "properties": {
+        "name": "P09 HTML sanitisation probe",
+        "test_group": "Popup rendering and sanitisation",
+        "test": "Harmless HTML formatting string",
+        "description": "<b>Bold test</b><br><i>Italic test</i><br><a href=\"https://www.d4h.com\">D4H link</a>",
+        "expected": "Observe whether HTML is rendered, escaped or removed. There is intentionally no script or event-handler content"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2600, -35.1090]}
+    },
+    {
+      "type": "Feature",
+      "id": "P10",
+      "properties": {
+        "name": "P10 Rich attribute types and te reo Māori",
+        "test_group": "Attribute preservation",
+        "test": "Boolean, number, null, array, object and Unicode",
+        "status": "Whakamātautau",
+        "active": true,
+        "priority": 3,
+        "nullable": null,
+        "tags": ["test", "mapi", "Kaitāia"],
+        "details": {"owner": "Test only", "severity": "low"},
+        "expected": "Observe which non-string values are retained, flattened, stringified or discarded"
+      },
+      "geometry": {"type": "Point", "coordinates": [173.2630, -35.1090]}
+    },
+    {
+      "type": "Feature",
+      "id": "L01",
+      "properties": {
+        "name": "L01 Baseline line",
+        "test_group": "Line geometry",
+        "test": "No style properties",
+        "expected": "Should render using D4H layer defaults"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[173.2570, -35.1065], [173.2610, -35.1065], [173.2650, -35.1060]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L02",
+      "properties": {
+        "name": "L02 SimpleStyle line",
+        "test_group": "SimpleStyle line styling",
+        "test": "stroke, stroke-width and stroke-opacity",
+        "stroke": "#6a3d9a",
+        "stroke-width": 8,
+        "stroke-opacity": 0.45,
+        "expected": "If SimpleStyle is supported this should be a wide semi-transparent purple line"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[173.2570, -35.1045], [173.2610, -35.1045], [173.2650, -35.1040]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L03",
+      "properties": {
+        "name": "L03 Leaflet path properties",
+        "test_group": "Leaflet-like line styling",
+        "test": "color, weight, opacity, dashArray, lineCap and lineJoin",
+        "color": "#ff7f00",
+        "weight": 9,
+        "opacity": 0.55,
+        "dashArray": "12 8",
+        "lineCap": "square",
+        "lineJoin": "bevel",
+        "expected": "Only works if D4H explicitly passes these properties to Leaflet path options"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[173.2570, -35.1025], [173.2610, -35.1025], [173.2650, -35.1020]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L04",
+      "properties": {
+        "name": "L04 MultiLineString",
+        "test_group": "Complex geometry",
+        "test": "Two disconnected line parts",
+        "stroke": "#1f78b4",
+        "stroke-width": 4,
+        "expected": "Tests whether D4H keeps a MultiLineString as one named feature"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [[173.2680, -35.1065], [173.2720, -35.1060]],
+          [[173.2680, -35.1045], [173.2720, -35.1040]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "A01",
+      "properties": {
+        "name": "A01 Baseline polygon",
+        "test_group": "Polygon geometry",
+        "test": "No style properties",
+        "expected": "Should render using D4H layer defaults"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[173.2570, -35.0995], [173.2600, -35.0995], [173.2600, -35.0970], [173.2570, -35.0970], [173.2570, -35.0995]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "A02",
+      "properties": {
+        "name": "A02 SimpleStyle polygon",
+        "test_group": "SimpleStyle polygon styling",
+        "test": "stroke, stroke-width, stroke-opacity, fill and fill-opacity",
+        "stroke": "#b15928",
+        "stroke-width": 6,
+        "stroke-opacity": 0.7,
+        "fill": "#ffff99",
+        "fill-opacity": 0.5,
+        "expected": "If SimpleStyle is supported this should have a brown outline and translucent yellow fill"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[173.2620, -35.0995], [173.2650, -35.0995], [173.2650, -35.0970], [173.2620, -35.0970], [173.2620, -35.0995]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "A03",
+      "properties": {
+        "name": "A03 Leaflet polygon properties",
+        "test_group": "Leaflet-like polygon styling",
+        "test": "color, weight, opacity, fillColor, fillOpacity and dashArray",
+        "color": "#08306b",
+        "weight": 7,
+        "opacity": 0.8,
+        "fillColor": "#41b6c4",
+        "fillOpacity": 0.25,
+        "dashArray": "6 6",
+        "expected": "Only works if D4H maps properties into Leaflet path options"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[173.2670, -35.0995], [173.2700, -35.0995], [173.2700, -35.0970], [173.2670, -35.0970], [173.2670, -35.0995]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "A04",
+      "properties": {
+        "name": "A04 Polygon with hole",
+        "test_group": "Complex geometry",
+        "test": "Polygon exterior ring plus interior ring",
+        "fill": "#cab2d6",
+        "fill-opacity": 0.45,
+        "stroke": "#6a3d9a",
+        "stroke-width": 3,
+        "expected": "Centre should be a genuine hole if polygon rings are handled correctly"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[173.2720, -35.1000], [173.2770, -35.1000], [173.2770, -35.0965], [173.2720, -35.0965], [173.2720, -35.1000]],
+          [[173.2735, -35.0990], [173.2755, -35.0990], [173.2755, -35.0975], [173.2735, -35.0975], [173.2735, -35.0990]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "A05",
+      "properties": {
+        "name": "A05 MultiPolygon",
+        "test_group": "Complex geometry",
+        "test": "Two disconnected polygon parts",
+        "fill": "#a6cee3",
+        "fill-opacity": 0.4,
+        "stroke": "#1f78b4",
+        "expected": "Tests whether D4H keeps a MultiPolygon as one named feature"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [[ [173.2570, -35.0940], [173.2590, -35.0940], [173.2590, -35.0925], [173.2570, -35.0925], [173.2570, -35.0940] ]],
+          [[ [173.2600, -35.0940], [173.2620, -35.0940], [173.2620, -35.0925], [173.2600, -35.0925], [173.2600, -35.0940] ]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G01",
+      "properties": {
+        "name": "G01 GeometryCollection",
+        "test_group": "Complex geometry",
+        "test": "Point plus LineString in one feature",
+        "expected": "Valid GeoJSON but importer support varies. Observe whether both geometries appear, one appears or import fails"
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {"type": "Point", "coordinates": [173.2660, -35.0930]},
+          {"type": "LineString", "coordinates": [[173.2640, -35.0915], [173.2680, -35.0915]]}
+        ]
+      }
+    }
+  ]
+}

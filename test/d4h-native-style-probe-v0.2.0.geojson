@@ -1,0 +1,641 @@
+{
+  "type": "FeatureCollection",
+  "name": "D4H Native Style Probe v0.2.0",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N01 props marker-icon star red small",
+        "marker-color": "#e31a1c",
+        "marker-size": "small",
+        "marker-icon": "fa fa-star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.275,
+          -35.114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N02 geom.style star red small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.278,
+          -35.114
+        ],
+        "style": {
+          "marker-color": "#e31a1c",
+          "marker-size": "small",
+          "marker-icon": "fa fa-star"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N03 conflict props red star vs geom green flag",
+        "marker-color": "#e31a1c",
+        "marker-size": "small",
+        "marker-icon": "fa fa-star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.281,
+          -35.114
+        ],
+        "style": {
+          "marker-color": "#33a02c",
+          "marker-size": "large",
+          "marker-icon": "fa fa-flag"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N04 props warning icon orange large",
+        "marker-color": "#ff7f00",
+        "marker-size": "large",
+        "marker-icon": "fa fa-exclamation-triangle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.284,
+          -35.114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N05 props fire icon red medium",
+        "marker-color": "#fb0000",
+        "marker-size": "medium",
+        "marker-icon": "fa fa-fire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.275,
+          -35.1115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N06 props medkit icon blue medium",
+        "marker-color": "#1f78b4",
+        "marker-size": "medium",
+        "marker-icon": "fa fa-medkit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.278,
+          -35.1115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N07 props map-marker icon purple medium",
+        "marker-color": "#6a3d9a",
+        "marker-size": "medium",
+        "marker-icon": "fa fa-map-marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.281,
+          -35.1115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N08 props circle green large",
+        "marker-color": "#33a02c",
+        "marker-size": "large",
+        "marker-icon": "fa fa-circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.284,
+          -35.1115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S01 props SimpleStyle purple wide",
+        "stroke": "#6a3d9a",
+        "stroke-width": 9,
+        "stroke-opacity": 0.75
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.274,
+            -35.1075
+          ],
+          [
+            173.278,
+            -35.1075
+          ],
+          [
+            173.282,
+            -35.1075
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S02 geom.style orange thin"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.274,
+            -35.1055
+          ],
+          [
+            173.278,
+            -35.1055
+          ],
+          [
+            173.282,
+            -35.1055
+          ]
+        ],
+        "style": {
+          "stroke": "#ff7f00",
+          "stroke-width": 2,
+          "stroke-opacity": 1
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S03 conflict props red wide vs geom blue thin",
+        "stroke": "#e31a1c",
+        "stroke-width": 10,
+        "stroke-opacity": 0.9
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.274,
+            -35.103500000000004
+          ],
+          [
+            173.278,
+            -35.103500000000004
+          ],
+          [
+            173.282,
+            -35.103500000000004
+          ]
+        ],
+        "style": {
+          "stroke": "#1f78b4",
+          "stroke-width": 2,
+          "stroke-opacity": 0.3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S04 same-name split line part A",
+        "stroke": "#33a02c",
+        "stroke-width": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.284,
+            -35.1075
+          ],
+          [
+            173.288,
+            -35.1075
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "S04 same-name split line part B",
+        "stroke": "#33a02c",
+        "stroke-width": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.284,
+            -35.106500000000004
+          ],
+          [
+            173.288,
+            -35.106500000000004
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F01 props fill cyan blue outline",
+        "stroke": "#1f78b4",
+        "stroke-width": 5,
+        "stroke-opacity": 0.9,
+        "fill": "#a6cee3",
+        "fill-opacity": 0.65
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.274,
+              -35.1005
+            ],
+            [
+              173.2767,
+              -35.1005
+            ],
+            [
+              173.2767,
+              -35.098499999999994
+            ],
+            [
+              173.274,
+              -35.098499999999994
+            ],
+            [
+              173.274,
+              -35.1005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F02 geom.style yellow brown outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.278,
+              -35.1005
+            ],
+            [
+              173.2807,
+              -35.1005
+            ],
+            [
+              173.2807,
+              -35.098499999999994
+            ],
+            [
+              173.278,
+              -35.098499999999994
+            ],
+            [
+              173.278,
+              -35.1005
+            ]
+          ]
+        ],
+        "style": {
+          "stroke": "#b15928",
+          "stroke-width": 6,
+          "stroke-opacity": 0.8,
+          "fill": "#ffff99",
+          "fill-opacity": 0.55
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F03 conflict props green vs geom red",
+        "stroke": "#006d2c",
+        "stroke-width": 7,
+        "stroke-opacity": 0.9,
+        "fill": "#74c476",
+        "fill-opacity": 0.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.282,
+              -35.1005
+            ],
+            [
+              173.28470000000002,
+              -35.1005
+            ],
+            [
+              173.28470000000002,
+              -35.098499999999994
+            ],
+            [
+              173.282,
+              -35.098499999999994
+            ],
+            [
+              173.282,
+              -35.1005
+            ]
+          ]
+        ],
+        "style": {
+          "stroke": "#99000d",
+          "stroke-width": 2,
+          "stroke-opacity": 0.4,
+          "fill": "#fc9272",
+          "fill-opacity": 0.2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F04 fill-opacity zero",
+        "stroke": "#54278f",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "fill": "#756bb1",
+        "fill-opacity": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.286,
+              -35.1005
+            ],
+            [
+              173.2887,
+              -35.1005
+            ],
+            [
+              173.2887,
+              -35.098499999999994
+            ],
+            [
+              173.286,
+              -35.098499999999994
+            ],
+            [
+              173.286,
+              -35.1005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F05 stroke-opacity zero",
+        "stroke": "#000000",
+        "stroke-width": 8,
+        "stroke-opacity": 0,
+        "fill": "#fdae6b",
+        "fill-opacity": 0.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.29,
+              -35.1005
+            ],
+            [
+              173.2927,
+              -35.1005
+            ],
+            [
+              173.2927,
+              -35.098499999999994
+            ],
+            [
+              173.29,
+              -35.098499999999994
+            ],
+            [
+              173.29,
+              -35.1005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "F06 hole with native style",
+        "stroke": "#6a3d9a",
+        "stroke-width": 4,
+        "stroke-opacity": 0.8,
+        "fill": "#cab2d6",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.274,
+              -35.0967
+            ],
+            [
+              173.279,
+              -35.0967
+            ],
+            [
+              173.279,
+              -35.093199999999996
+            ],
+            [
+              173.274,
+              -35.093199999999996
+            ],
+            [
+              173.274,
+              -35.0967
+            ]
+          ],
+          [
+            [
+              173.2754,
+              -35.0957
+            ],
+            [
+              173.27759999999998,
+              -35.0957
+            ],
+            [
+              173.27759999999998,
+              -35.0942
+            ],
+            [
+              173.2754,
+              -35.0942
+            ],
+            [
+              173.2754,
+              -35.0957
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "M01 MultiPolygon native style",
+        "stroke": "#1f78b4",
+        "stroke-width": 4,
+        "stroke-opacity": 0.8,
+        "fill": "#a6cee3",
+        "fill-opacity": 0.45
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                173.281,
+                -35.0965
+              ],
+              [
+                173.28300000000002,
+                -35.0965
+              ],
+              [
+                173.28300000000002,
+                -35.095
+              ],
+              [
+                173.281,
+                -35.095
+              ],
+              [
+                173.281,
+                -35.0965
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                173.284,
+                -35.0965
+              ],
+              [
+                173.286,
+                -35.0965
+              ],
+              [
+                173.286,
+                -35.095
+              ],
+              [
+                173.284,
+                -35.095
+              ],
+              [
+                173.284,
+                -35.0965
+              ]
+            ]
+          ]
+        ],
+        "style": {
+          "stroke": "#1f78b4",
+          "stroke-width": 4,
+          "stroke-opacity": 0.8,
+          "fill": "#a6cee3",
+          "fill-opacity": 0.45
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "G02 GeometryCollection styled children"
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              173.289,
+              -35.0955
+            ],
+            "style": {
+              "marker-color": "#e31a1c",
+              "marker-size": "large",
+              "marker-icon": "fa fa-star"
+            }
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                173.288,
+                -35.0945
+              ],
+              [
+                173.292,
+                -35.0945
+              ]
+            ],
+            "style": {
+              "stroke": "#ff7f00",
+              "stroke-width": 7,
+              "stroke-opacity": 0.9,
+              "fill": "#ff7f00",
+              "fill-opacity": 0.2
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
