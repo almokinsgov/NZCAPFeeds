@@ -4,21 +4,7 @@
   <link rel="self" href="https://alerthub.civildefence.govt.nz/atom/pwp" />
   <subtitle>A feed of current or recent Emergency Mobile Alerts issued in New Zealand.</subtitle>
   <id>https://alerthub.civildefence.govt.nz/atom/pwp</id>
-  <updated>2026-11-01T06:43:07Z</updated>
-  <entry>
-    <title>FIRE - Stay Inside Notice</title>
-    <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjQuNTAzLjUwMw" />
-    <author>
-      <name>New Zealand Emergency Mobile Alert</name>
-      <email>emergency.management@nema.govt.nz</email>
-    </author>
-    <id>https://alerthub.civildefence.govt.nz/messages/cap/2.49.0.0.554.4.503.503#0</id>
-    <updated>2026-11-01T03:44:46Z</updated>
-    <published>2026-11-01T03:44:45Z</published>
-    <content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"&gt;&lt;identifier&gt;2.49.0.0.554.4.503.503&lt;/identifier&gt;&lt;sender&gt;info@fireandemergency.nz&lt;/sender&gt;&lt;sent&gt;2026-11-01T03:44:45-00:00&lt;/sent&gt;&lt;status&gt;Actual&lt;/status&gt;&lt;msgType&gt;Alert&lt;/msgType&gt;&lt;scope&gt;Public&lt;/scope&gt;&lt;info&gt;&lt;language&gt;en-US&lt;/language&gt;&lt;category&gt;Fire&lt;/category&gt;&lt;event&gt;Fire&lt;/event&gt;&lt;urgency&gt;Immediate&lt;/urgency&gt;&lt;severity&gt;Severe&lt;/severity&gt;&lt;certainty&gt;Observed&lt;/certainty&gt;&lt;effective&gt;2026-11-01T03:44:45-00:00&lt;/effective&gt;&lt;expires&gt;2026-11-01T05:44:45-00:00&lt;/expires&gt;&lt;senderName&gt;Fire and Emergency New Zealand&lt;/senderName&gt;&lt;headline&gt;FIRE - Stay Inside Notice&lt;/headline&gt;&lt;description&gt;FIRE &amp;amp; EMERGENCY ALERT: There is a large fire on Great South Road, Manurewa at Euro Car Parts. Please STAY INSIDE, close all windows and doors and AVOID THE AREA. Please wait for further instructions. www.fireandemergency.nz&lt;/description&gt;&lt;area&gt;&lt;areaDesc&gt;Alert area&lt;/areaDesc&gt;&lt;polygon&gt;-37.03308,174.95771 -37.02508,174.95672 -37.0174,174.9538 -37.01032,174.94906 -37.00411,174.94267 -36.99901,174.9349 -36.99523,174.92603 -36.9929,174.9164 -36.99211,174.90639 -36.9929,174.89637 -36.99523,174.88675 -36.99901,174.87787 -37.00411,174.8701 -37.01032,174.86371 -37.0174,174.85897 -37.02508,174.85605 -37.03308,174.85507 -37.04107,174.85605 -37.04875,174.85897 -37.05584,174.86371 -37.06205,174.8701 -37.06714,174.87787 -37.07093,174.88675 -37.07326,174.89637 -37.07404,174.90639 -37.07326,174.9164 -37.07093,174.92603 -37.06714,174.9349 -37.06205,174.94267 -37.05584,174.94906 -37.04875,174.9538 -37.04107,174.95672 -37.03308,174.95771&lt;/polygon&gt;&lt;/area&gt;&lt;/info&gt;&lt;/alert&gt;</content>
-    <summary>FIRE &amp; EMERGENCY ALERT: There is a large fire on Great South Road, Manurewa at Euro Car Parts. Please STAY INSIDE, close all windows and doors and AVOID THE AREA. Please wait for further instructions. www.fireandemergency.nz</summary>
-  </entry>
+  <updated>2026-11-03T05:48:07Z</updated>
   <entry>
     <title>FIRE - Termination Notice</title>
     <link rel="alternate" href="https://alerthub.civildefence.govt.nz/messages/cap/Mi40OS4wLjAuNTU0LjQuNTA0LjUwNA" />
